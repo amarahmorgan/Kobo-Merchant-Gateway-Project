@@ -25,9 +25,13 @@ End to end testing and audit of Kobo Merchant and Settlement Gateway | Flash Gro
 This project simulates a real-world fintech QA engineering environment focused on validating a Merchant & Settlement Gateway within the Kobo Business ecosystem.
 
 The system enables:
+
 	•	Merchant onboarding & lifecycle management
+
 	•	Voucher purchasing & commission calculation
+
 	•	Wallet-based financial transactions
+
 	•	Ledger reconciliation & settlement validation
 
 🔍 Our role as a Quality Engineering Team is to ensure:
@@ -37,16 +41,24 @@ The system enables:
 	•	End-to-End transactional integrity
 
 👥 Team Members:
+
 Amarah Morgan - Yanda Kiviet - Toufeeq Nordien
 
 🧱 Project Architecture:
+
 📦 Kobo Business QA Project
+
  API/                → Node.js backend service
+
  Database/           → SQL schema + audit queries
  sql-queries/        → 50+ financial & integrity queries
+
  Automation/         → Playwright (TypeScript, POM)
+
  Postman/            → API collections & test scripts (request and response)
+
  CONTRIBUTIONS.md    → Team logs & defect tracking
+
  README.md           → Project documentation
 
 
@@ -56,45 +68,69 @@ Amarah Morgan - Yanda Kiviet - Toufeeq Nordien
 	•	🧾 Full commit traceability per feature
 
 ⚙️ Tech Stack:
+
 💻 IDE - VS Code
+
 🌐 API Testing - Postman
+
 🧪 Automation - Playwright (TypeScript)
+
 🗄 Database - Microsoft Sql Server
+
 🔁 Version Control - Git & GitHub
+
 🧠 Languages - JavaScript & TypeScript
 
 🧪 Testing Strategy:
 
 ✅ Functional Testing
+
 	•	Merchant registration & login
+
 	•	Voucher purchase workflows
+
 	•	Commission calculation
 
 🚫 Negative Testing
+
 	•	Invalid inputs
+
 	•	Duplicate MSISDNs
+
 	•	Insufficient wallet balance
 
 ⚡ API Testing
+
 	•	Status code validation
+
 	•	Response time checks
+
 	•	JSON schema validation
 
 🔐 Security Testing
+
 	•	RBAC validation
+
 	•	Privilege escalation attempts
+
 	•	Token misuse scenarios
 
 🔁 End-to-End Testing
+
 	•	Full merchant journey automation
 
 📊 Database Testing
+
 	•	Data integrity validation
+
 	•	Financial reconciliation
+
 	•	Constraint enforcement
 
 📈 Performance Testing
+
 	•	API response thresholds
+
 	•	Transaction processing speed
 
 🧠 Task Summary: 

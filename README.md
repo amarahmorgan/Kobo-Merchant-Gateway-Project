@@ -37,7 +37,7 @@ The system enables:
 🔍 Our role as a Quality Engineering Team is to ensure:
 	•	System reliability
 	•	Financial accuracy
-	•	Security compliance (RBAC & Least Privilege)
+	•	Security compliance
 	•	End-to-End transactional integrity
 
 👥 Team Members:
@@ -46,16 +46,15 @@ Amarah Morgan - Yanda Kiviet - Toufeeq Nordien
 
 🧱 Project Architecture:
 
-📦 Kobo Business QA Project
 
- API/                → Node.js backend service
+ API                 → Node.js backend service
 
- Database/           → SQL schema + audit queries
- sql-queries/        → 50+ financial & integrity queries
+ Database            → SQL schema + audit queries
+ - sql-queries        → 50+ financial & integrity queries
 
- Automation/         → Playwright (TypeScript, POM)
+ Automation          → Playwright (TypeScript, POM)
 
- Postman/            → API collections & test scripts (request and response)
+ Postman             → API collections & test scripts (request and response)
 
  CONTRIBUTIONS.md    → Team logs & defect tracking
 
@@ -67,23 +66,25 @@ Amarah Morgan - Yanda Kiviet - Toufeeq Nordien
 	•	✅ All changes via Pull Requests (PRs)
 	•	🧾 Full commit traceability per feature
 
+
 ⚙️ Tech Stack:
 
-💻 IDE - VS Code
+IDE - VS Code
 
-🌐 API Testing - Postman
+API Testing - Postman
 
-🧪 Automation - Playwright (TypeScript)
+Automation - Playwright (TypeScript)
 
-🗄 Database - Microsoft Sql Server
+Database - Microsoft Sql Server
 
-🔁 Version Control - Git & GitHub
+Version Control - Git & GitHub
 
-🧠 Languages - JavaScript & TypeScript
+Languages - JavaScript & TypeScript
+
 
 🧪 Testing Strategy:
 
-✅ Functional Testing
+Functional Testing
 
 	•	Merchant registration & login
 
@@ -91,7 +92,7 @@ Amarah Morgan - Yanda Kiviet - Toufeeq Nordien
 
 	•	Commission calculation
 
-🚫 Negative Testing
+Negative Testing
 
 	•	Invalid inputs
 
@@ -99,7 +100,7 @@ Amarah Morgan - Yanda Kiviet - Toufeeq Nordien
 
 	•	Insufficient wallet balance
 
-⚡ API Testing
+API Testing
 
 	•	Status code validation
 
@@ -107,7 +108,7 @@ Amarah Morgan - Yanda Kiviet - Toufeeq Nordien
 
 	•	JSON schema validation
 
-🔐 Security Testing
+Security Testing
 
 	•	RBAC validation
 
@@ -115,11 +116,11 @@ Amarah Morgan - Yanda Kiviet - Toufeeq Nordien
 
 	•	Token misuse scenarios
 
-🔁 End-to-End Testing
+End-to-End Testing
 
 	•	Full merchant journey automation
 
-📊 Database Testing
+Database Testing
 
 	•	Data integrity validation
 
@@ -127,13 +128,13 @@ Amarah Morgan - Yanda Kiviet - Toufeeq Nordien
 
 	•	Constraint enforcement
 
-📈 Performance Testing
+Performance Testing
 
 	•	API response thresholds
 
 	•	Transaction processing speed
 
-🧠 Task Summary: 
+🧠Task Summary: 
 
 ✔ Task 1
 

@@ -21,6 +21,7 @@ End to end testing and audit of Kobo Merchant and Settlement Gateway | Flash Gro
 </p>
 
 📌 Project Overview:
+ 
 This project simulates a real-world fintech QA engineering environment focused on validating a Merchant & Settlement Gateway within the Kobo Business ecosystem.
 
 The system enables:
@@ -40,13 +41,13 @@ Amarah Morgan - Yanda Kiviet - Toufeeq Nordien
 
 🧱 Project Architecture:
 📦 Kobo Business QA Project
- ┣ 📂 API/                → Node.js backend service
- ┣ 📂 Database/           → SQL schema + audit queries
- ┃ ┗ 📂 sql-queries/      → 50+ financial & integrity queries
- ┣ 📂 Automation/         → Playwright (TypeScript, POM)
- ┣ 📂 Postman/            → API collections & test scripts (request and response)
- ┣ 📄 CONTRIBUTIONS.md    → Team logs & defect tracking
- ┗ 📄 README.md           → Project documentation
+ API/                → Node.js backend service
+ Database/           → SQL schema + audit queries
+ sql-queries/        → 50+ financial & integrity queries
+ Automation/         → Playwright (TypeScript, POM)
+ Postman/            → API collections & test scripts (request and response)
+ CONTRIBUTIONS.md    → Team logs & defect tracking
+ README.md           → Project documentation
 
 
 🔒 Rules:
@@ -124,18 +125,17 @@ FLOAT causes:
 	•	Rounding errors
 	•	Financial inconsistencies
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=YOUR-USERNAME&show_icons=true&theme=tokyonight"/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=YOUR-USERNAME&theme=tokyonight"/>
-</p>
-
 
 🏁 Note:
 
 This project demonstrates a production-level fintech QA workflow, combining:
+
 	•	🧪 Automation Engineering
+
 	•	🌐 API Testing
+
 	•	🗄 Financial Auditing
+
 	•	🔐 Security Validation
 
 <p align="center">

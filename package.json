@@ -1,0 +1,23 @@
+{
+  "name": "kobo-merchant-gateway-project",
+  "version": "1.0.0",
+  "description": "End to end testing and audit of Kobo Merchant and Settlement Gateway | Flash Group",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amarahmorgan/Kobo-Merchant-Gateway-Project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/amarahmorgan/Kobo-Merchant-Gateway-Project/issues"
+  },
+  "homepage": "https://github.com/amarahmorgan/Kobo-Merchant-Gateway-Project#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.59.1",
+    "@types/node": "^25.5.2"
+  }
+}
